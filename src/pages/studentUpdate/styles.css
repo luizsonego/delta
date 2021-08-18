@@ -1,0 +1,46 @@
+.form-update {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  max-width: 700px;
+  margin: 15px auto;
+}
+
+.form-update .input-update {
+  height: 45px;
+  margin-bottom: 20px;
+
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.form-update textarea {
+  resize: vertical;
+  padding-top: 15px;
+}
+
+.form-update .input-update + input[type="date" i] {
+  color: rgb(119, 119, 119);
+}
+
+.form-update select {
+  background: #fff;
+  color: rgb(119, 119, 119);
+}
+
+.form-update label {
+  margin-left: 15px;
+}
+
+.form-update .confirm-button {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 30px;
+  border: none;
+  background: #75ddab;
+  color: #f2fff9;
+  font-size: 17px;
+}
